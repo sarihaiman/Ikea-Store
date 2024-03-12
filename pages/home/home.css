@@ -1,0 +1,30 @@
+body{
+    direction: rtl;
+}
+
+#img_1,#img_2,#img_3,#img_4,#img_5,#img_6,#img_7,#img_8{
+    width: 390px;
+}
+
+#img_2,#img_4{
+    margin-top: 137px;
+}
+
+#img_6,#img_8{
+    margin-bottom: 126px;
+}
+
+#qq1{
+    width: 90%;
+    height: 100%;
+    margin-right: 65px;
+}
+
+.div3{
+    display: none;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+   }

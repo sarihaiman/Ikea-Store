@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pay.css">
+    <link rel="stylesheet" href="./pay1.css">
+    <link rel="stylesheet" href="../A/agree/agree (1).css">
+    <link rel="stylesheet" href="../A/agree/agree (2).css">
+    <link rel="stylesheet" href="../A/agree/agree (3).css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h4 class="text-uppercase">פרטי האשראי</h4>
+        <form class="form mt-4">
+            <div class="form-group">
+                <label for="name" class="text-uppercase">שם בעל הכרטיס</label>
+                <input type="text" id="name" class="form-control" placeholder="Israel Israeli" required>
+            </div>
+            <div class="form-group">
+                <label for="card" class="text-uppercase">מספר כרטיס</label>
+                <div class="card-number">
+                    <input type="text" id="num" class="card-no" step="4" maxlength="16" minlength="10" placeholder="1234456758691234"  required>
+                    <span class="">
+                        <img src="../A/mastercard-marcus-samuelsson-group-2.png"
+                            alt="" width="30" height="30">
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex w-100">
+                <div class="d-flex w-50 pr-sm-4">
+                    <div class="form-group">
+                        <label for="data" class="text-uppercase">תוקף הכרטיס</label>
+                        <input type="text" id="date" class="form-control" maxlength="4" minlength="4" placeholder="03/25" required>
+                    </div>
+                </div>
+                <div class="d-flex w-50 pl-sm-5 pl-3">
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <a href="#"
+                            title="CVV is a credit or debit card number, the last three digit number printed on the signature panel">?</a>
+                        <input type="password" id="cvv_" class="form-control pr-5" maxlength="3" minlength="3" data-type="password" maxlength="3" placeholder="123" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-inline py-sm-2">
+                <input type="checkbox" name="details" id="details">
+                <label for="details" class="px-sm-2 pl-2 pt-sm-0 pt-2">שמור את פרטי האשראי לקניה הבאה</label>
+            </div>
+            <div class="my-3" class="card-body">
+                <div class="wrapper text-center">
+               <button type="button" id="zz" class="text-uppercase btn btn-primary btn-block p-3">לאישור וסיום התהליך</button>
+            </div>
+          </div>
+            <div id="form-footer">
+                <p>By placing your order, you agree to our</p>
+                <p>privacy notice & terms of use.</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./pay.js"></script>
+<script src="./pay1.js"></script>
+<script src="./checkbox.js"></script>
+<script src="/data/jquery-3.6.4.min.js"></script>
+<script src="../A/agree/agree (1).js"></script>
+<script src="../A/agree/agree (2).js"></script>
+<script src="../A/agree/agree (3).js"></script>
+<script src="../A/agree/agree (4).js"></script>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(185, 185, 185, 0.89);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* height:100vh; */
+    text-align: center;
+}
+.card{
+    width:1200px;
+    height:700px;
+    background-color:#000000;
+    border:20px solid;
+    border-image:linear-gradient(#cef00d,#dd2476,#1c64ff) 1;
+    animation:rotate 2.5s ease-in infinite;
+    color:white;
+    font-size:40px;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     margin-top: 5.5%;
+}
+@keyframes rotate{
+    50%{
+    border-image:linear-gradient(360deg,#fd2e05,#dd2476,#1256e9) 1;
+    }
+}
+
+a:link{
+    color: #fdfdfd;
+}
+a:active{
+    color: #fffdfd;
+}
+a:visited{
+    color: #ffffff;
+}
+a:hover{
+    color: #fffdfd;
+}
+
